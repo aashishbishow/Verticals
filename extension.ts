@@ -910,5 +910,11 @@ class ReelsPanel {
 
 // Exit point when extension is deactivated
 export function deactivate() {
-	
+    // Dispose of the ReelsPanel if it exists
+    if (ReelsPanel.currentPanel) {
+        ReelsPanel.currentPanel.dispose();
+    }
+    
+    // Clear any global state or variables if needed
+    console.log('Instagram Reels extension has been deactivated');
 }
