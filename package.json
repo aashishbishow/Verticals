@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "libnpx": "^11.0.0",
+    "vscode": "^1.1.37",
+    "axios": "^1.8.1",
+    "querystring": "^0.2.1"
+  }
+}
